@@ -18,7 +18,7 @@ pipeline {
             steps {
                 echo 'Building..'
                  sh 'ls -lah'
-                 sh 'packer --version
+                 sh 'packer --version'
             }
         }
         stage('Test') {
